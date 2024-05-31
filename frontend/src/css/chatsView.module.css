@@ -1,0 +1,55 @@
+.newDmButton {
+  composes: smallButton from "./base.module.css";
+  background-color: #ECD444;
+  width: 133px;
+}
+
+.newDmButtonOn {
+  composes: newDmButton;
+  composes: buttonOn from "./base.module.css";
+}
+
+.newChannelButton {
+  composes: smallButton from "./base.module.css";
+  background-color: #D17A22;
+  width: 133px;
+}
+
+.newChannelButtonOn {
+  composes: newChannelButton;
+  composes: buttonOn from "./base.module.css";
+}
+
+.joinChannelButton {
+  composes: smallButton from "./base.module.css";
+  background-color: #645E9D;
+  width: 133px;
+}
+
+.joinChannelButtonOn {
+  composes: joinChannelButton;
+  composes: buttonOn from "./base.module.css";
+}
+
+.viewChatCommandsButton {
+  composes: smallButton from "./base.module.css";
+  background-color: #B4C292;
+  width: 133px;
+}
+
+.viewChatCommandsButtonOn {
+  composes: viewChatCommandsButton;
+  composes: buttonOn from "./base.module.css";
+}
+
+.startChannelButton {
+  composes: smallButton from "./base.module.css";
+  width: 70px;
+  background-color: transparent;
+}
+
+.startDmButton {
+  composes: smallButton from "./base.module.css";
+  width: 50px;
+  background-color: transparent;
+}
